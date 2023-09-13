@@ -9,6 +9,11 @@
     flex-grow: 1;
 }
 
+.textp {
+    flex-grow: 1;
+    width: 100%;
+}
+
 .btn {
     display: flex;
     align-items: center;

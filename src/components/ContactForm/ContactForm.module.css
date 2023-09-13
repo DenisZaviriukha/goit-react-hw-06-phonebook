@@ -12,3 +12,8 @@
 .field:focus {
     outline-color: #1976d2;
 }
+
+.title {
+    margin: 0;
+    font-size: 16px;
+}

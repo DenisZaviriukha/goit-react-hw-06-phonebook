@@ -25,7 +25,7 @@ export const ContactForm = () => {
         return Notify.warning('You already have this contact');
       }
       else {
-         return Notify.warning('You already have contact with the same number and another contact with the same number');
+         return Notify.warning('You already have contact with the same name and another contact with the same number');
       }
     } else if (nameDuplicate.length > 0) {
       return Notify.warning('You already have contact with the same name');
